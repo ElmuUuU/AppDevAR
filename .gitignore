@@ -3,8 +3,7 @@
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
 /AppDevAR/[Ll]ibrary/
-/AppDevAR/[Ll]ibrary/
-/AppDevAR/[Ll]ibrary/
+/AppDevAR/[Pp]ackages/
 /AppDevAR/[Tt]emp/
 /AppDevAR/[Oo]bj/
 /AppDevAR/[Bb]uild/
