@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="Jungfer" size="1.000000 1.422380" />
+    <ImageTarget name="Sunflower" size="1.000000 1.415434" />
+    <ImageTarget name="Poppy" size="1.000000 1.408397" />
+    <ImageTarget name="02-Woodchips" size="1.000000 0.701525" />
+    <ImageTarget name="01-Rocks" size="1.000000 0.699346" />
+  </Tracking>
+</QCARConfig>
