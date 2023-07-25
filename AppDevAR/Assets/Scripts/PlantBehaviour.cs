@@ -8,6 +8,9 @@ public class NewBehaviourScript : MonoBehaviour
     // Start is called before the first frame update
     public Slider slider;
     public GameObject[] objects;
+    public GameObject prefab;
+
+    public GameObject marker;
     void Start()
     {
         
@@ -17,6 +20,7 @@ public class NewBehaviourScript : MonoBehaviour
     void Update()
     {
         ChangeFlowerState();
+        OnClick();
     }
 
     public void ChangeFlowerState()
@@ -38,6 +42,15 @@ public class NewBehaviourScript : MonoBehaviour
         for (int i = 0; i < objects.Length; i++)
         {
             objects[i].SetActive(false);
+        }
+    }
+
+    public void OnClick()
+    {
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            GameObject instan = Instantiate(prefab);
+            instan.transform.position = marker.transform.position;
         }
     }
 }
