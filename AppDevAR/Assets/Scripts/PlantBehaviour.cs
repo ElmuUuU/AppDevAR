@@ -20,20 +20,44 @@ public class NewBehaviourScript : MonoBehaviour
     void Update()
     {
         ChangeFlowerState();
-        OnClick();
+        //OnClick();
     }
 
     public void ChangeFlowerState()
     {
-        if (slider.value == 5f)
+        switch (slider.value)
         {
-            SetOthersInactive();
-            objects[1].SetActive(true);
-        }
-        else if (slider.value == 0f)
-        {
-            SetOthersInactive();
-            objects[0].SetActive(true);
+            case (3f):
+                SetOthersInactive();
+                objects[0].SetActive(true);
+                return;
+            case (4f):
+                SetOthersInactive();
+                objects[1].SetActive(true);
+                return;
+            case (5f):
+                SetOthersInactive();
+                objects[2].SetActive(true);
+                return;
+            case (6f):
+                SetOthersInactive();
+                objects[3].SetActive(true);
+                return;
+            case (7f):
+                SetOthersInactive();
+                objects[4].SetActive(true);
+                return;
+            case (8f):
+                SetOthersInactive();
+                objects[5].SetActive(true);
+                return;
+            case (10f):
+                SetOthersInactive();
+                objects[0].SetActive(true);
+                return;
+            default:
+                SetOthersInactive();
+                return;
         }
     }
 
@@ -45,6 +69,7 @@ public class NewBehaviourScript : MonoBehaviour
         }
     }
 
+    /*
     public void OnClick()
     {
         if (Input.GetKeyDown(KeyCode.C))
@@ -52,5 +77,5 @@ public class NewBehaviourScript : MonoBehaviour
             GameObject instan = Instantiate(prefab);
             instan.transform.position = marker.transform.position;
         }
-    }
+    }*/
 }
