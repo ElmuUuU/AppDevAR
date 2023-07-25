@@ -70,6 +70,3 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /AppDevAR/[Aa]ssets/[Ss]treamingAssets/aa.meta
 /AppDevAR/[Aa]ssets/[Ss]treamingAssets/aa/*
-AppDevAR/Library/ArtifactDB
-AppDevAR/Library/ArtifactDB
-AppDevAR/Library/ArtifactDB
