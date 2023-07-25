@@ -21,12 +21,12 @@ public class NewBehaviourScript : MonoBehaviour
 
     public void ChangeFlowerState()
     {
-        if (slider.value >= 5f)
+        if (slider.value == 5f)
         {
             SetOthersInactive();
             objects[1].SetActive(true);
         }
-        else
+        else if (slider.value == 0f)
         {
             SetOthersInactive();
             objects[0].SetActive(true);
