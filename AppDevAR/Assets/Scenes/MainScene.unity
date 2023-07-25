@@ -4850,13 +4850,9 @@ SceneRoots:
   m_Roots:
   - {fileID: 705507995}
   - {fileID: 1241652061}
-  - {fileID: 522226563}
   - {fileID: 1496242279}
   - {fileID: 999230899}
-<<<<<<< HEAD
   - {fileID: 522226563}
   - {fileID: 1750280126}
   - {fileID: 611357839}
   - {fileID: 1352474244}
-=======
->>>>>>> 77a7942f4c4eb8cce7d09899062b4f40392e8434
