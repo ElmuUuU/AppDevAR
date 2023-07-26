@@ -27,23 +27,27 @@ public class SunflowerBehaviourScript : MonoBehaviour
     {
         switch (slider.value)
         {
+            case (4f):
+                SetOthersInactive();
+                objects[0].SetActive(true);
+                return;
             case (5f):
                 SetOthersInactive();
                 objects[0].SetActive(true);
                 return;
-            case (6f):
+            case (7f):
                 SetOthersInactive();
                 objects[1].SetActive(true);
                 return;
-            case (7f):
+            case (8f):
                 SetOthersInactive();
                 objects[2].SetActive(true);
                 return;
-            case (8f):
+            case (9f):
                 SetOthersInactive();
                 objects[3].SetActive(true);
                 return;
-            case (9f):
+            case (10f):
                 SetOthersInactive();
                 objects[4].SetActive(true);
                 return;
